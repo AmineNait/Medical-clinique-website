@@ -28,7 +28,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>Clinique Virtuelle Alma</HeroH1>
                 <HeroP>
-                    Laissez nous prendre soin de vous 
+                    On prend soin de vous 
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to='signup' 
@@ -42,7 +42,7 @@ const HeroSection = () => {
                         exact='true' 
                         offset={-80}
                     >
-                        Get started {hover ? <ArrowForward /> : <ArrowRight />}
+                        Réservez votre vaccin {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
