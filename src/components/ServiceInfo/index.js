@@ -16,41 +16,41 @@ const ServiceInfo = () => {
     return (
         <Container>
             <StyledJumbotron>
-                <InfoH1>Titre principal</InfoH1>
-                <InfoH2>Titre secondaire</InfoH2>
+                <InfoH1>Notre équipe</InfoH1>
+                <InfoH2>Apprenez-en plus</InfoH2>
             </StyledJumbotron>
             <Row className="show-grid text-center">
                 <StyledCol xs={12} sm={4}>
                     <StyledImage src={Person1_JPG} roundedCircle alt="doctor profile"/>
-                    <h3>Francky</h3>
-                    <p>That's a doctor, a real doctor. a really really best doctor of doctors</p>
+                    <h3>Dr Francky</h3>
+                    <p>Médecin de famille</p>
                 </StyledCol>
                 <StyledCol xs={12} sm={4} >
                     <StyledImage src={Person2_JPG} roundedCircle alt="doctor profile"/>
-                    <h3>Martina</h3>
-                    <p>That's a doctor, a real doctor. a really really best doctor of doctors</p>
+                    <h3>Dr Martina</h3>
+                    <p>Gynécologue</p>
                 </StyledCol>
                 <StyledCol xs={12} sm={4}>
                     <StyledImage src={Person3_JPG} roundedCircle alt="doctor profile"/>
-                    <h3>Bob</h3>
-                    <p>That's a doctor, a real doctor. a really really best doctor of doctors</p>
+                    <h3>Dr Bob</h3>
+                    <p>Psychiatre</p>
                 </StyledCol>
             </Row>           
             <Row className="show-grid text-center">
                 <StyledCol xs={12} sm={4}>
                     <StyledImage src={Person1_JPG} roundedCircle alt="doctor profile"/>
-                    <h3>Francky</h3>
-                    <p>That's a doctor, a real doctor. a really really best doctor of doctors</p>
+                    <h3>Dr Joseph</h3>
+                    <p>Médecin de famille</p>
                 </StyledCol>
                 <StyledCol xs={12} sm={4}>
                     <StyledImage src={Person2_JPG} roundedCircle alt="doctor profile"/>
-                    <h3>Martina</h3>
-                    <p>That's a doctor, a real doctor. a really really best doctor of doctors</p>
+                    <h3>Dr Sarah</h3>
+                    <p>Neurologue</p>
                 </StyledCol>
                 <StyledCol xs={12} sm={4}>
                     <StyledImage src={Person3_JPG} roundedCircle alt="doctor profile"/>
-                    <h3>Bob</h3>
-                    <p>That's a doctor, a real doctor. a really really best doctor of doctors</p>
+                    <h3>André</h3>
+                    <p>Infirmier</p>
                 </StyledCol>
             </Row>           
         </Container>

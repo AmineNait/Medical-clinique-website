@@ -35,20 +35,20 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to='/'>How it works</FooterLink>
-                            <FooterLink to='/'>Testimonials</FooterLink>
-                            <FooterLink to='/'>Investors</FooterLink>
-                            <FooterLink to='/'>Terms of Service</FooterLink>
+                            <FooterLinkTitle>À propos</FooterLinkTitle>
+                            <FooterLink to='/'>Comment ça fonctionne?</FooterLink>
+                            <FooterLink to='/'>Témoignages</FooterLink>
+                            <FooterLink to='/'>Notre Équipe</FooterLink>
+                            <FooterLink to='/'>Conditions d'utilisation</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Contact Us</FooterLinkTitle>
+                            <FooterLinkTitle>Nous Joindre</FooterLinkTitle>
                             <FooterLink to='/'>Contact</FooterLink>
-                            <FooterLink to='/'>Support</FooterLink>
-                            <FooterLink to='/'>Sponsorships</FooterLink>
-                            <FooterLink to='/'>Careers</FooterLink>
+                            <FooterLink to='/'>Aide</FooterLink>
+                            <FooterLink to='/'>Horaire d'ouverture</FooterLink>
+                            <FooterLink to='/'>Carrières</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

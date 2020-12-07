@@ -28,7 +28,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>Clinique Virtuelle Alma</HeroH1>
                 <HeroP>
-                    On prend soin de vous 
+                    Une clinique accessible, pour des soins de qualités 
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to='signup' 

@@ -54,7 +54,7 @@ const Navbar = ({ toggle }) => {
                                     spy={true} 
                                     exact='true' 
                                     offset={-80}
-                                >About
+                                >Covid-19
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
@@ -65,7 +65,7 @@ const Navbar = ({ toggle }) => {
                                     spy={true} 
                                     exact='true' 
                                     offset={-80}
-                                >Discover
+                                >Nouvelles
                                 </NavLinks>
                             </NavItem>
                             <NavItem>

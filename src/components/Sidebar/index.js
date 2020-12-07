@@ -19,10 +19,10 @@ const Sidebar = ({isOpen, toggle}) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to="about" onClick={toggle}>
-                        About
+                        Covid-19
                     </SidebarLink>
                     <SidebarLink to="discover" onClick={toggle}>
-                        Discover
+                        Nouvelles
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>
                         Services

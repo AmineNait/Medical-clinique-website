@@ -15,22 +15,22 @@ import {
 const Services = () => {
     return (
         <ServicesContainer id='services'>
-            <ServicesH1>Our Services</ServicesH1>
+            <ServicesH1>Nos Services</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard to='/serviceinfo'>
                     <ServicesIcon src={doctorSVG} alt='Doctor'/>
-                    <ServicesH2>Doctor</ServicesH2>
-                    <ServicesP>we help you increase your health</ServicesP>
+                    <ServicesH2>Notre équipe</ServicesH2>
+                    <ServicesP>Nous vous aidons à rester en santé</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={appointmentSVG} alt='Appointment'/>
-                    <ServicesH2>Appointment</ServicesH2>
-                    <ServicesP>you can acces all services</ServicesP>
+                    <ServicesH2>Rendez-vous</ServicesH2>
+                    <ServicesP>Accédez à tous nos services</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={medicalResearchSVG} alt='Medical Research'/>
-                    <ServicesH2>Medical Research</ServicesH2>
-                    <ServicesP>Unlock our special membership card</ServicesP>
+                    <ServicesH2>Recherche médicale</ServicesH2>
+                    <ServicesP>Découvrez sur quoi nous travaillons</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

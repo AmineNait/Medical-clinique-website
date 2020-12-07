@@ -24,7 +24,7 @@ const Rendezvous = () => {
                     <FormContent>
                         <Form action='#'>
                             <FormH1>Prendre rendez-vous</FormH1>
-                            <FormLabel htmlFor='for'>Nom*</FormLabel>
+                            <FormLabel htmlFor='for'>Nom</FormLabel>
                             <FormInput type='text' required />
                             <FormLabel htmlFor='for'>Courrier électronique</FormLabel>
                             <FormInput type='email' required />
