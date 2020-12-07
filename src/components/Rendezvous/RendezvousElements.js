@@ -7,6 +7,7 @@ export const Container = styled.div`
     right: 0;
     top: 0;
     z-index: 0;
+    margin-bottom: 1px;
     overflow: hidden;
     background: linear-gradient(
         108deg,        
