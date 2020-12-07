@@ -24,6 +24,7 @@ export const StyledJumbotron = styled(Jumbotron)`
   background-color: black;
   text-align: center;
 `
+
 export const StyledCol = styled(Col)`
     margin-bottom: 2em;
 `

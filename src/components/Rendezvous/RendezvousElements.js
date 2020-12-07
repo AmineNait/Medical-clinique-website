@@ -1,9 +1,7 @@
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
+import { Jumbotron } from 'react-bootstrap'
 
 export const Container = styled.div`
-    min-height: 692px;
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -17,6 +15,13 @@ export const Container = styled.div`
     );
 `
 
+export const StyledJumbotron = styled(Jumbotron)`
+  background-color: black;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 1px;
+`
+
 export const FormWrap = styled.div`
     height: 100%;
     display: flex;
@@ -25,20 +30,6 @@ export const FormWrap = styled.div`
 
     @media screen and (max-width: 400px) {
         height: 80%;
-    }
-`
-
-export const Icon = styled(Link)`
-    margin-top: 32px;
-    margin-left: 32px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-    font-size: 32px;
-    
-    @media screen and (max-width: 480px) {
-        margin-top: 8px;
-        margin-left: 16px;
     }
 `
 
